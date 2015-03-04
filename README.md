@@ -1,6 +1,6 @@
 # docker-motioneye
 Container for motionEye, a web-based user interface for motion.
-( https://bitbucket.org/ccrisan/motioneye/ )
+( https://bitbucket.org/ccrisan/motioneye )
 
 ## Notes
 * By default the container will expose the webinterface on port **tcp/8765**.
