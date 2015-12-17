@@ -15,7 +15,7 @@ RUN echo "deb http://ppa.launchpad.net/mc3man/trusty-media/ubuntu trusty main" \
   v4l-utils \
   git
 
-RUN git clone https://bitbucket.org/ccrisan/motioneye.git /motioneye \
+RUN git clone https://github.com/ccrisan/motioneye /motioneye \
   && cp /motioneye/settings_default.py /motioneye/settings.py
   
 VOLUME ["/storage"]
