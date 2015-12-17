@@ -18,8 +18,7 @@ RUN echo "deb http://ppa.launchpad.net/mc3man/trusty-media/ubuntu trusty main" \
 ENV TAG 0.22
 RUN git clone https://github.com/ccrisan/motioneye /motioneye \
   && cd /motioneye \
-  && git checkout tags/${TAG} \
-  && cp /motioneye/settings_default.py /motioneye/settings.py
+  && git checkout tags/${TAG}
   
 VOLUME ["/storage"]
 WORKDIR /motioneye
