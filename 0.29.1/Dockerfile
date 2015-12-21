@@ -27,7 +27,7 @@ RUN git clone https://github.com/ccrisan/motioneye /motioneye \
   && mkdir /etc/motioneye /var/lib/motioneye \
   && cp /motioneye/extra/motioneye.conf.sample /etc/motioneye/motion.conf
   
-VOLUME ["/storage"]
+VOLUME ["/var/lib/motioneye"]
 WORKDIR /motioneye
 
 EXPOSE 8765
